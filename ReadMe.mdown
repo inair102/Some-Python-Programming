@@ -1,0 +1,16 @@
+#Some programs in Python
+
+<strong>Delete from Circle :</strong>
+<ul>
+The program takes in input as n, m, k.
+Here <strong>n</strong> is an integer which forms a circle [0,1,2,..,n-1]. Starting from number 0, the <strong>m</strong>th number is deleted from the circle. After the number is deleted, the current number points to the next number of the deleted one,i.e, the number adjactent to the deleted number becomes the current number. The deletion terminates when there are <strong>k</strong> numbers remaining in the circle.
+<li>Example:- $ python Delete_from_Circle.py 10 5 4<br>
+	$ The last four numbers remaining is [0,2,3,9]  
+
+</ul>
+<strong>Median of Two Sorted Lists :</strong>
+<ul>
+This program takes two sorted lists for example A and B, and calcuates  their combined median.
+<li>Example1:- A = [2,3,5,8] and B = [4,7], the program's output will be "The median is [4,5]""
+<li>Example2:- A = [2,3,5,8,10] and B = [6,7,9,12], the output will be "The median is 7"
+</ul>
